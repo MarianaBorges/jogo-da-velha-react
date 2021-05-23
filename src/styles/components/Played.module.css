@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.container > img{
+  width: 2.0rem;
+  height: 2.0rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.container text {
+  font-size: 0.9rem;
+  font-family: 'Roboto', serif;
+  color: #6E3B64;
+}
+
+.line{
+  border-bottom-style: solid;
+  border-color: #FFFFFF;
+}

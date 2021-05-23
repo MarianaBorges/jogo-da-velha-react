@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin: 0.4rem;
+  padding-top: 0.25rem;
+}
+.container text{
+  font-size: 0.9rem;
+  font-family: 'Roboto', serif;
+  color: #D46993;
+}

@@ -1,0 +1,57 @@
+.root{
+  text-align: center;
+}
+.titleContainer{
+  margin: 6vh;
+}
+.title{
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color: #6E3B64;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.containerLeft{
+  width: 30%;
+  margin-right: 10px;
+}
+.containerLeftPlayer{
+  background: #F6D2D6;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.containerLeftRanking{
+  height: 306px;
+  background: #F6D2D6;
+  border-radius: 10px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.titleRanking{
+  font-size: 1.25rem;
+  font-family: 'Roboto', serif;
+  color: #6E3B64;
+}
+.containerRight{
+  width: 50%;
+  height: 480px;
+  margin-left: 10px;
+  background-color: #FFF9F9;
+  border-radius: 10px;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.containerRightHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}

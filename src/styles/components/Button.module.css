@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input[type=button]{
+  border-style: none;
+  background-color: #0BE32E;
+  border-radius: 15px;
+  margin: 20px 0 20px 0;
+  height: 30px;
+}
